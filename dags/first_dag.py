@@ -6,12 +6,11 @@ default_args = {
     'owner': 'ashish',
     'retries': '2',
     'retry_delay': timedelta(minutes=2)
-
 }
 
 
 with DAG(
-    dag_id='first_dag',
+    dag_id='First_DAG',
     default_args=default_args,
     description='This is the first dag',
     start_date=datetime(2023, 8, 30, 2),
