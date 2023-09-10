@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS dag_logs(run_date date, dag_id varchar(100));
