@@ -22,8 +22,8 @@ def hello():
         return 'Ashish'
 
     # Passing multiple values
-    @task()
-    def get_fullname(multiple_outputs=True):
+    @task(multiple_outputs=True)
+    def get_fullname():
         return {'firstname': 'Ashish', 'lastname': 'Inamdar'}
 
     @task()
